@@ -1,0 +1,42 @@
+.container{
+   width: 940px;
+   margin: 0 auto
+}
+i{
+   display: inline-block;
+   font-size: 25px;
+   transition: .3s;
+}
+img{
+   width: 0;
+   height: 0;
+   transition: .3s;
+}
+input[type="radio"]{
+   display: none;
+}
+.accardion{
+   list-style: none;
+}
+.accardion-item_content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+   border-radius: 6px;
+   background-color: aliceblue;
+}
+.accardion__image{
+   text-align: center;
+}
+.accardion-item_content:hover ~ .accardion__image img{
+   width: 400px;
+   height: 400px;
+}
+.accardion-item_content:hover i{
+   --fa-rotate-angle: 45deg;
+}
+.accardion-item_content>div input[type="radio"]:checked img{
+   width: 400px;
+   height: 400px;
+}
