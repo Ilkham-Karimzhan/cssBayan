@@ -50,6 +50,8 @@ label p{
    background-color: aliceblue;
 }
 .accardion__image{
+   display: block;
+   padding: 0;
    text-align: center;
 }
 .accardion-item_content_deep:hover ~ .accardion__image img{
