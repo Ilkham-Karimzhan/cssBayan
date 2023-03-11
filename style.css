@@ -3,6 +3,7 @@
    margin: 0 auto;
 }
 .accardion{
+   text-transform: uppercase;
    color: blue;
    font-size: 18px;
    font-weight: 400;
@@ -37,7 +38,7 @@ label{
 label p{
    margin: 0;
    font-weight: 700;
-   font-size: 18px;
+   font-size: 16px;
 }
 .accardion{
    list-style: none;
