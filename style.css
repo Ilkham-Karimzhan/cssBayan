@@ -1,11 +1,14 @@
 .container{
    width: 75vw;
-   margin: 0 auto
+   margin: 0 auto;
 }
 .accardion{
    color: blue;
    font-size: 18px;
    font-weight: 400;
+}
+ul{
+   padding: 0;
 }
 h1{
    transition: .3s;
