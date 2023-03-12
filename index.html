@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <title>cssBayan</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>cssBayan by Ilkham</h1>
+      <ul class="accardion">
+        <li class="accardion-item">
+          <div class="accardion-item_content">
+            <div class="accardion-item_content_deep">
+              <input checked type="radio" name="accardion" id="num-one" />
+              <label for="num-one">
+                <p>Typical ad content</p>
+                <i class="fa-solid fa-plus fa-rotate-by"></i>
+              </label>
+            </div>
+            <!-- I guess, little spaces between elements can look good even on small screens -->
+            <label for="num-one" class="accardion__image">
+              <img src="./assets/rise-mark.jfif" draggable="false" />
+            </label>
+          </div>
+        </li>
+        <li class="accardion-item">
+          <div class="accardion-item_content">
+            <div class="accardion-item_content_deep">
+              <input type="radio" name="accardion" id="num-two" />
+              <label for="num-two">
+                <p>CSS adaptive style choice</p>
+                <i class="fa-solid fa-plus fa-rotate-by"></i>
+              </label>
+            </div>
+            <label for="num-two" class="accardion__image">
+              <img src="./assets/snake.jfif" draggable="false" />
+            </label>
+          </div>
+        </li>
+        <li class="accardion-item">
+          <div class="accardion-item_content">
+            <div class="accardion-item_content_deep">
+              <input type="radio" name="accardion" id="num-three" />
+              <label for="num-three">
+                <p>Front-dev building house</p>
+                <i class="fa-solid fa-plus fa-rotate-by"></i>
+              </label>
+            </div>
+            <label for="num-three" class="accardion__image">
+              <img src="./assets/htmlAndCss.jfif" draggable="false" />
+            </label>
+          </div>
+        </li>
+        <li class="accardion-item">
+          <div class="accardion-item_content">
+            <div class="accardion-item_content_deep">
+              <input type="radio" name="accardion" id="num-four" />
+              <label for="num-four">
+                <p>Close to deadline</p>
+                <i class="fa-solid fa-plus fa-rotate-by"></i>
+              </label>
+            </div>
+            <label for="num-four" class="accardion__image">
+              <img src="./assets/IT.jpg" draggable="false" />
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+.container{
+   width: 75vw;
+   margin: 0 auto;
+}
+.accardion{
+   text-transform: uppercase;
+   color: blue;
+   font-size: 18px;
+   font-weight: 400;
+}
+ul{
+   padding: 0;
+}
+h1{
+   transition: .3s;
+}
+i{
+   display: inline-block;
+   font-size: 25px;
+   transition: .3s;
+}
+img{
+   width: 0;
+   height: 0;
+   transition: .3s;
+}
+input[type="radio"]{
+   display: none;
+}
+label{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding: 1%;
+   cursor: pointer;
+}
+label p{
+   margin: 0;
+   font-weight: 700;
+   font-size: 16px;
+}
+.accardion{
+   list-style: none;
+}
+.accardion:hover{
+   color: #333333;
+}
+.accardion-item_content{
+   cursor: pointer;
+}
+.accardion-item_content_deep{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 6px;
+   background-color: aliceblue;
+}
+.accardion__image{
+   display: block;
+   padding: 0;
+   text-align: center;
+}
+.accardion-item_content_deep:hover ~ .accardion__image img{
+   width: 40%;
+   height: 40%;
+}
+.accardion__image:hover img{
+   width: 40%;
+   height: 40%;
+}
+img:hover{
+   width: 40%;
+   height: 40%;
+}
+.accardion-item_content:hover i{
+   --fa-rotate-angle: 45deg;
+}
+.accardion-item_content:has(input[type=radio]:checked) .accardion__image img{
+   width: 40%;
+   height: 40%;
+}
+.accardion-item:has(input[type=radio]:checked){
+   color: #333333;
+}
+.accardion-item_content:has(input[type=radio]:checked) i{
+   --fa-rotate-angle: 45deg;
+}
